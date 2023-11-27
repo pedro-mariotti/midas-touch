@@ -1,4 +1,5 @@
 spd = 5;
+move = true
 
 collisions = [obj_parede, obj_pai_frutas]
 

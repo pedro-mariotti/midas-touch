@@ -7,6 +7,3 @@
 		
 	}
 	
-	globalvar fruta_selecionada;
-	fruta_selecionada = frutas[random(array_length(frutas))];
-	

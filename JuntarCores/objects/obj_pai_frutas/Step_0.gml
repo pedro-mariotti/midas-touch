@@ -1,23 +1,11 @@
 
 
 if(fruta_selecionada.fruta_id == fruta_id and move == true){
-	// Move
-	var _key_left = keyboard_check(vk_left);
-	var _key_right = keyboard_check(vk_right);
-	var _key_up = keyboard_check(vk_up);
-	var _key_down = keyboard_check(vk_down);
 
-	var _xinput = _key_right - _key_left;
-	var _yinput = _key_down - _key_up;
-
-	show_debug_message(_xinput)
-	show_debug_message(_yinput)
-
-	move_and_collide(_xinput * spd, _yinput * spd, collisions)
 }
 
 
 // Checa se grudou
 if (instance_nearest(x, y, obj_pai_frutas).fruta_id == fruta_id) {
-    move = false; 
+    
 }

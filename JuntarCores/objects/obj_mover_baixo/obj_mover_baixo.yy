@@ -1,17 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_maca",
-  "eventList": [],
+  "name": "obj_mover_baixo",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Frutas",
-    "path": "folders/Objetos/Frutas.yy",
+    "name": "Mover",
+    "path": "folders/Objetos/Mover.yy",
   },
   "parentObjectId": {
-    "name": "obj_pai_frutas",
-    "path": "objects/obj_pai_frutas/obj_pai_frutas.yy",
+    "name": "obj_pai_mover",
+    "path": "objects/obj_pai_mover/obj_pai_mover.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_maca",
-    "path": "sprites/spr_maca/spr_maca.yy",
+    "name": "spr_baixo",
+    "path": "sprites/spr_baixo/spr_baixo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

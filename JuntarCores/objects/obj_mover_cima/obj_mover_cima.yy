@@ -1,17 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_cereja",
-  "eventList": [],
+  "name": "obj_mover_cima",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Frutas",
-    "path": "folders/Objetos/Frutas.yy",
+    "name": "Mover",
+    "path": "folders/Objetos/Mover.yy",
   },
   "parentObjectId": {
-    "name": "obj_pai_frutas",
-    "path": "objects/obj_pai_frutas/obj_pai_frutas.yy",
+    "name": "obj_pai_mover",
+    "path": "objects/obj_pai_mover/obj_pai_mover.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cereja",
-    "path": "sprites/spr_cereja/spr_cereja.yy",
+    "name": "spr_cima",
+    "path": "sprites/spr_cima/spr_cima.yy",
   },
   "spriteMaskId": null,
   "visible": true,

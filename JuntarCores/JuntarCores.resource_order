@@ -10,6 +10,7 @@
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"Frutas","order":4,"path":"folders/Objetos/Frutas.yy",},
+    {"name":"Mover","order":6,"path":"folders/Objetos/Mover.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
@@ -18,7 +19,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Frutas coloridas","order":1,"path":"folders/Sprites/Frutas coloridas.yy",},
     {"name":"Frutas gold","order":2,"path":"folders/Sprites/Frutas gold.yy",},
-    {"name":"Mover","order":6,"path":"folders/Objetos/Mover.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pera","order":15,"path":"sprites/spr_pera/spr_pera.yy",},

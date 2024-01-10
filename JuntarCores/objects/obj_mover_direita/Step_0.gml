@@ -4,5 +4,10 @@ if start {
 	}
 	else{
 		start = false
+		speed = 0
+		if(instance_nearest(x, y, obj_pai_mover).SPRITE = SPRITE){
+			//show_debug_message("teste")
+			gold = true;	
+		}
 	}
 }

@@ -37,6 +37,7 @@
     {"name":"spr_kiwi_gold","order":7,"path":"sprites/spr_kiwi_gold/spr_kiwi_gold.yy",},
     {"name":"spr_ameixa_gold","order":3,"path":"sprites/spr_ameixa_gold/spr_ameixa_gold.yy",},
     {"name":"obj_mover_esquerda_baixo","order":3,"path":"objects/obj_mover_esquerda_baixo/obj_mover_esquerda_baixo.yy",},
+    {"name":"check_win","order":3,"path":"scripts/check_win/check_win.yy",},
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"spr_laranja_cortada_gold","order":8,"path":"sprites/spr_laranja_cortada_gold/spr_laranja_cortada_gold.yy",},

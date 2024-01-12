@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_parede",
-  "eventList": [],
+  "name": "obj_mover_esquerda_cima",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Mover",
+    "path": "folders/Objetos/Mover.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_pai_mover",
+    "path": "objects/obj_pai_mover/obj_pai_mover.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -24,11 +29,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_parede",
-    "path": "sprites/spr_parede/spr_parede.yy",
+    "name": "spr_cima_esq",
+    "path": "sprites/spr_cima_esq/spr_cima_esq.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

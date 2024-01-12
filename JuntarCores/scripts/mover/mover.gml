@@ -16,7 +16,9 @@ function mover(_direcao) {
 	} else {
 	    collided = true; // Houve uma colisão
 		speed = 0;
-		check_win()
+		
+		check_gold(self);
+
 	}
 	
 }

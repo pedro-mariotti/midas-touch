@@ -10,5 +10,4 @@ if gold = true
 	
 	var _spr_gold = asset_get_index(_spr_gold_name);
 	draw_sprite(_spr_gold,0, x, y);
-	
 }

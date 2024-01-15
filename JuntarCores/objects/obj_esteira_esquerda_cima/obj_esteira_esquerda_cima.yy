@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_mover_esquerda_baixo",
+  "name": "obj_esteira_esquerda_cima",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Mover",
-    "path": "folders/Objetos/Mover.yy",
+    "name": "Esteiras",
+    "path": "folders/Objetos/Mover/Esteiras.yy",
   },
   "parentObjectId": {
-    "name": "obj_pai_mover",
-    "path": "objects/obj_pai_mover/obj_pai_mover.yy",
+    "name": "obj_pai_esteira",
+    "path": "objects/obj_pai_esteira/obj_pai_esteira.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_baixo_esq",
-    "path": "sprites/spr_baixo_esq/spr_baixo_esq.yy",
+    "name": "spr_idle42434445",
+    "path": "sprites/spr_idle42434445/spr_idle42434445.yy",
   },
   "spriteMaskId": null,
   "visible": true,

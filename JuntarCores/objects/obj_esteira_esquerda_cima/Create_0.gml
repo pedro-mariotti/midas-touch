@@ -1,0 +1,1 @@
+dir = "esquerda_cima"

@@ -1,0 +1,3 @@
+dir = "esquerda_baixo"
+
+

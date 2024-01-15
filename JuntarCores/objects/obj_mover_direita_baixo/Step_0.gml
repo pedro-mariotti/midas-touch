@@ -1,3 +1,4 @@
+
 if start {
-	mover("direita_baixo")
+	mover(direcao)
 }

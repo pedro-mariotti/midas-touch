@@ -1,5 +1,7 @@
 start = false;
 gold = false;
-spd = 5;
+
+
+direcao = noone;
 
 alinhar_grid()

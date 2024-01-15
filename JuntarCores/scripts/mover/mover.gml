@@ -16,9 +16,23 @@ function mover(_direcao) {
 	} else {
 	    collided = true; // Houve uma colisão
 		speed = 0;
+		//alinhar_grid()
+		check_gold()
 		
-		check_gold(self);
+		//check_gold(self);
 
 	}
 	
+}
+
+
+function move_esteira(dir){
+
+	obj = instance_nearest(x, y, obj_pai_mover);
+
+	if point_distance(x, y, obj.x, obj.y) <= spd
+	{		
+		show_debug_message(point_distance(x, y, obj.x, obj.y))
+		obj.direcao = dir
+	}
 }

@@ -3,6 +3,8 @@ draw_set_valign(fa_middle);
 draw_self()
 draw_sprite(SPRITE,0, x, y);
 
+
+
 if gold = true
 {	
 	var _spr_name = sprite_get_name(SPRITE)

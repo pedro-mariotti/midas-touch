@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "check_win",
+  "name": "check_gold",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

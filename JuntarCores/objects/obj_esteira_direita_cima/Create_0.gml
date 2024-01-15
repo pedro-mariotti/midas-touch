@@ -1,0 +1,5 @@
+dir = "direita_cima"
+
+
+
+

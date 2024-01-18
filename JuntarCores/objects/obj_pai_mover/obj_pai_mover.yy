@@ -28,7 +28,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"SPRITE","filters":[],"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"TIPO_FRUTA","filters":[],"listItems":[
         "spr_acerola",
         "spr_ameixa",
         "spr_amora",
@@ -46,6 +46,7 @@
         "spr_pera",
         "spr_toranja",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_acerola","varType":6,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"LIDER","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"False","varType":3,},
   ],
   "solid": true,
   "spriteId": null,

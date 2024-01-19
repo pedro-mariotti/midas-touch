@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_maca_gold",
-  "bbox_bottom": 84,
-  "bbox_left": 1,
-  "bbox_right": 81,
+  "bbox_bottom": 85,
+  "bbox_left": 2,
+  "bbox_right": 72,
   "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a8f2a6d3-685e-4f41-93e1-7c6d224003b6",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b64cc85d-6a65-4423-9bbd-97ca6ada4448",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 87,
+  "height": 88,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a7d5d5c6-58bb-45f4-a288-d8a6370f2c90","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"79933c52-5371-4164-8f94-16cec7c3ef7c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a8f2a6d3-685e-4f41-93e1-7c6d224003b6","path":"sprites/spr_maca_gold/spr_maca_gold.yy",},},},"Disabled":false,"id":"dc38a00b-f955-42cf-82af-cccbd0ef04f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b64cc85d-6a65-4423-9bbd-97ca6ada4448","path":"sprites/spr_maca_gold/spr_maca_gold.yy",},},},"Disabled":false,"id":"9f09f437-17e4-43a0-8cb2-69d60473c150","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 84,
+  "width": 75,
 }

@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_laranja_gold",
-  "bbox_bottom": 75,
-  "bbox_left": 3,
-  "bbox_right": 75,
+  "bbox_bottom": 77,
+  "bbox_left": 2,
+  "bbox_right": 66,
   "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a671479c-06d1-4f86-92f9-f9016abb88e3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2cc027e-be64-4072-bd09-fb4e3177df98",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 78,
+  "height": 80,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"813e9805-243f-47b2-a6d3-d8bafcb6e3f6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39274a78-ee4e-4861-b577-1297607d6632","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a671479c-06d1-4f86-92f9-f9016abb88e3","path":"sprites/spr_laranja_gold/spr_laranja_gold.yy",},},},"Disabled":false,"id":"ba9792aa-07b6-46fc-b7c5-ce3f2d3745ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d2cc027e-be64-4072-bd09-fb4e3177df98","path":"sprites/spr_laranja_gold/spr_laranja_gold.yy",},},},"Disabled":false,"id":"e97f9e2e-9519-4a95-acc2-207488011c3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 78,
+  "width": 69,
 }

@@ -10,7 +10,6 @@
     {"name":"inst_54FFF42D_1_1_1","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_7430E4FF","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_62974F6F","path":"rooms/rm_fase_4/rm_fase_4.yy",},
-    {"name":"inst_7116AF8D","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_46D124AB","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_48FD4A10","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_44F3795C","path":"rooms/rm_fase_4/rm_fase_4.yy",},
@@ -31,6 +30,7 @@
     {"name":"inst_65891DA","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_20D43B2C","path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"inst_57C3EB9","path":"rooms/rm_fase_4/rm_fase_4.yy",},
+    {"name":"inst_7116AF8D","path":"rooms/rm_fase_4/rm_fase_4.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -41,7 +41,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62974F6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_direita_baixo","path":"objects/obj_mover_direita_baixo/obj_mover_direita_baixo.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"TIPO_FRUTA","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_amora",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":350.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7116AF8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_esteira_direita_cima","path":"objects/obj_esteira_direita_cima/obj_esteira_direita_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1040.0,"y":490.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46D124AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_direita_cima","path":"objects/obj_mover_direita_cima/obj_mover_direita_cima.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"TIPO_FRUTA","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_manga ",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":560.0,},
@@ -52,7 +51,9 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"TIPO_FRUTA","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_amora",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1200.0,"y":630.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Esteiras","depth":100,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Esteiras","depth":100,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7116AF8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_esteira_direita_cima","path":"objects/obj_esteira_direita_cima/obj_esteira_direita_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1040.0,"y":490.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5669DAF0","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},"x":880.0,"y":350.0,},
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_2C429B36","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},"x":880.0,"y":490.0,},

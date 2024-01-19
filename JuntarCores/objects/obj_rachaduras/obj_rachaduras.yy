@@ -1,20 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_esteira_esquerda_cima",
+  "name": "obj_rachaduras",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Esteiras",
-    "path": "folders/Objetos/Mover/Esteiras.yy",
+    "name": "Mecânicas adicionais",
+    "path": "folders/Objetos/Mecânicas adicionais.yy",
   },
-  "parentObjectId": {
-    "name": "obj_pai_esteira",
-    "path": "objects/obj_pai_esteira/obj_pai_esteira.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_esteira_esq_cima",
-    "path": "sprites/spr_esteira_esq_cima/spr_esteira_esq_cima.yy",
+    "name": "spr_rachadura",
+    "path": "sprites/spr_rachadura/spr_rachadura.yy",
   },
   "spriteMaskId": null,
   "visible": true,

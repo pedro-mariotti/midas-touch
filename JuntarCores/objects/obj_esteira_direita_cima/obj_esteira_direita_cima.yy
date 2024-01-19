@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_idle4243",
-    "path": "sprites/spr_idle4243/spr_idle4243.yy",
+    "name": "spr_esteira_dir_cima",
+    "path": "sprites/spr_esteira_dir_cima/spr_esteira_dir_cima.yy",
   },
   "spriteMaskId": null,
   "visible": true,

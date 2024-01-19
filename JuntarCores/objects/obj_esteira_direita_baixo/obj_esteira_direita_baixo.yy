@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_idle42",
-    "path": "sprites/spr_idle42/spr_idle42.yy",
+    "name": "spr_esteira_esq_baixo",
+    "path": "sprites/spr_esteira_esq_baixo/spr_esteira_esq_baixo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

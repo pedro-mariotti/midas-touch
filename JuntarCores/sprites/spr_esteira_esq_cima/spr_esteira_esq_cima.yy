@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_idle4243",
+  "name": "spr_esteira_esq_cima",
   "bbox_bottom": 120,
   "bbox_left": 11,
   "bbox_right": 138,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efe7f037-403c-468d-be74-96682df6c914",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"40a30fbc-1bc5-456c-8f32-b7ecd5d7b1ad",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 131,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e8183356-4fd7-4642-814e-b27bd4115cd3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e5dd90d2-9463-4b09-8361-fe2658b1efa6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_idle",
+    "name": "spr_esteira_esq_cima",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efe7f037-403c-468d-be74-96682df6c914","path":"sprites/spr_idle4243/spr_idle4243.yy",},},},"Disabled":false,"id":"690faee6-3719-4d6b-936d-4964f06e0836","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"40a30fbc-1bc5-456c-8f32-b7ecd5d7b1ad","path":"sprites/spr_esteira_esq_cima/spr_esteira_esq_cima.yy",},},},"Disabled":false,"id":"d1568e56-8088-42ca-bb58-9749bcf22fa5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

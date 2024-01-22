@@ -1,17 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pai_mover",
+  "name": "obj_mudar_fruta",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Mover",
-    "path": "folders/Objetos/Mover.yy",
+    "name": "Mecânicas adicionais",
+    "path": "folders/Objetos/Mecânicas adicionais.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"TIPO_FRUTA","filters":[],"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"FRUTA","filters":[],"listItems":[
         "spr_acerola",
         "spr_ameixa",
         "spr_amora",
@@ -38,17 +37,19 @@
         "spr_kiwi",
         "spr_laranja",
         "spr_maça",
-        "spr_manga ",
+        "spr_manga",
         "spr_melancia",
         "spr_mirtilo",
         "spr_morango",
         "spr_pera",
         "spr_toranja",
       ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_acerola","varType":6,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"LIDER","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"False","varType":3,},
   ],
-  "solid": true,
-  "spriteId": null,
+  "solid": false,
+  "spriteId": {
+    "name": "spr_esteira_dir_cima",
+    "path": "sprites/spr_esteira_dir_cima/spr_esteira_dir_cima.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

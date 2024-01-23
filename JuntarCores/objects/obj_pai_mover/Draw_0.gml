@@ -1,7 +1,6 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_self()
-draw_sprite(tipo_fruta,0, x, y);
 
 
 if gold = true
@@ -11,4 +10,4 @@ if gold = true
 	
 	var _spr_gold = asset_get_index(_spr_gold_name);
 	draw_sprite(_spr_gold,0, x, y);
-}
+} else draw_sprite(tipo_fruta,0, x, y)

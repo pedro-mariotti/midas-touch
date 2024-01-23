@@ -31,6 +31,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Frutas coloridas","folderPath":"folders/Sprites/Frutas coloridas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Frutas gold","folderPath":"folders/Sprites/Frutas gold.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mover","folderPath":"folders/Sprites/Mover.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Esteira","folderPath":"folders/Sprites/Esteira.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

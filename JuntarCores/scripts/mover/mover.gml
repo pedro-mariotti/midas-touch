@@ -1,5 +1,7 @@
 // Função mover
 function mover(_direcao) {
+	if stop {exit;}
+	
 	var _move = true;
 	//collided = false;
 	
@@ -14,6 +16,7 @@ function mover(_direcao) {
 			show_debug_message("fechado")
 		}
 	}
+	
 	if (_move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
 	{
 		if (_direcao == "direita_baixo") {
@@ -30,9 +33,14 @@ function mover(_direcao) {
 			speed = -SPD
 	}
 	} else {
-	   // collided = true; // Houve uma colisão
-		speed = 0;
-		alinhar_grid()
+	   
+		if speed != 0 {
+			speed = 0;
+			stop = true;	
+			alinhar_grid()	
+		}
+		
+		
 		// check_gold()
 		
 		//check_gold(self);

@@ -1,4 +1,5 @@
 start = false;
+stop = false;
 gold = false;
 direcao = noone;
 

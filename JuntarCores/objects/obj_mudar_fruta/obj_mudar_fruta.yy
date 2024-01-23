@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"FRUTA","filters":[],"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fruta","filters":[],"listItems":[
         "spr_acerola",
         "spr_ameixa",
         "spr_amora",

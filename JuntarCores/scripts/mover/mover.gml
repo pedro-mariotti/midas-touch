@@ -1,7 +1,7 @@
 // Função mover
 function mover(_direcao) {
 	var _move = true;
-	collided = false;
+	//collided = false;
 	
 	if(place_meeting(x, y, obj_ponte)){
 		if instance_nearest(x, y, obj_ponte).estado_ponte == "aberto"{
@@ -18,21 +18,21 @@ function mover(_direcao) {
 	{
 		if (_direcao == "direita_baixo") {
 		    direction = -41; // Mova para a direita
-			speed = spd
+			speed = SPD
 		} else if (_direcao == "direita_cima") {
 		    direction = 41; // Mova para a esquerda
-			speed = spd
+			speed = SPD
 		} else if (_direcao == "esquerda_cima") {
 		    direction = -41; // Mova para cima
-			speed = -spd
+			speed = -SPD
 		} else if (_direcao == "esquerda_baixo") {
 			direction = 41;  // Mova para baixo
-			speed = -spd
+			speed = -SPD
 	}
 	} else {
-	    collided = true; // Houve uma colisão
+	   // collided = true; // Houve uma colisão
 		speed = 0;
-		//alinhar_grid()
+		alinhar_grid()
 		// check_gold()
 		
 		//check_gold(self);
@@ -42,21 +42,21 @@ function mover(_direcao) {
 }
 
 
-function move_esteira(dir){
+function move_esteira(_dir){
 
 	obj = instance_nearest(x, y, obj_pai_mover);
 
-	if point_distance(x, y, obj.x, obj.y) <= spd
+	if point_distance(x, y, obj.x, obj.y) <= SPD
 	{		
 		show_debug_message(point_distance(x, y, obj.x, obj.y))
 		//troca sprite para a direção correta
-		switch(dir){
+		switch(_dir){
 			case "direita_baixo": obj.sprite_index = spr_baixo_dir break;
 			case "direita_cima": obj.sprite_index = spr_cima_dir break;
 			case "esquerda_baixo": obj.sprite_index = spr_baixo_esq break;
 			case "esquerda_cima": obj.sprite_index = spr_cima_esq break;
 			
 		}
-		obj.direcao = dir
+		obj.direcao = _dir
 	}
 }

@@ -28,7 +28,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"TIPO_FRUTA","filters":[],"listItems":[
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_fruta","filters":[],"listItems":[
         "spr_acerola",
         "spr_ameixa",
         "spr_amora",

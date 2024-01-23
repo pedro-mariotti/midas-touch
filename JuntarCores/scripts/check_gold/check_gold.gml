@@ -5,7 +5,7 @@ function check_gold() {
 	//	for(var _k = 0; k < 15 ;_k++) {
 	//		if(_obj.tipo_fruta == lista_frutas
 	//	}
-	//}
+	//} coletar todas as frutas iguais do level e contar quantas tem para realizar checagem pra transformar em ouro no final
 	for (var _i = 0; _i < instance_number(obj_pai_mover); _i++;)
 	{
 	   var _obj = instance_find(obj_pai_mover,_i);

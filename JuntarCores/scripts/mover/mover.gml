@@ -1,6 +1,6 @@
 // Função mover
 function mover(_direcao) {
-	if stop {exit;}
+	//if stop {exit;}
 	
 	var _move = true;
 	//collided = false;
@@ -33,10 +33,10 @@ function mover(_direcao) {
 			speed = -SPD
 	}
 	} else {
-	   
 		if speed != 0 {
 			speed = 0;
-			stop = true;	
+			start = false
+			stop = true;
 			alinhar_grid()	
 		}
 		

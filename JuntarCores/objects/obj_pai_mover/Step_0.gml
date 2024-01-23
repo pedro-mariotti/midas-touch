@@ -5,7 +5,6 @@ if(speed == 0) {
 	ghost.x = x
 	ghost.y = y
 } else {
-	show_debug_message("Entra")
 	instance_deactivate_object(ghost)
 }
 

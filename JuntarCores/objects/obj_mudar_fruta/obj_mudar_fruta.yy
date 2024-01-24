@@ -47,8 +47,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_esteira_dir_baixo",
-    "path": "sprites/spr_esteira_dir_baixo/spr_esteira_dir_baixo.yy",
+    "name": "spr_aaaa45",
+    "path": "sprites/spr_aaaa45/spr_aaaa45.yy",
   },
   "spriteMaskId": null,
   "visible": true,

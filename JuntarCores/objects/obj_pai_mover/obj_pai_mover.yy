@@ -38,7 +38,7 @@
         "spr_cereja",
         "spr_kiwi",
         "spr_laranja",
-        "spr_maça",
+        "spr_maca",
         "spr_manga ",
         "spr_melancia",
         "spr_mirtilo",

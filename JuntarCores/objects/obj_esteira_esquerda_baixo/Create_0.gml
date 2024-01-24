@@ -1,3 +1,3 @@
-dir = "direita_baixo"
+dir = "esquerda_baixo"
 
 

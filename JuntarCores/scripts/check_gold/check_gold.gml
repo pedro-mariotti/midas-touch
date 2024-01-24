@@ -9,9 +9,7 @@ function check_gold() {
 	   }
 	} 
 	if(_gold_amt == instance_number(obj_pai_mover)){
-		obj_game.level_up = true;
-		obj_game.fade_out = true;
-		obj_game.fade_speed = .01;
+		room_goto_next()
 	}
 }
 

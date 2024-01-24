@@ -1,4 +1,4 @@
 if place_meeting(x, y, obj_pai_mover){
-	inst = instance_nearest(x, y, obj_pai_mover)
-	inst.tipo_fruta = fruta;
+	var _inst = instance_nearest(x, y, obj_pai_mover)
+	_inst.tipo_fruta = fruta;
 }

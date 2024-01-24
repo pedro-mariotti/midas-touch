@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3dbf40c3-67ba-4e7e-a587-0a8578ba98ce","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Frutas gold",
     "path": "folders/Sprites/Frutas gold.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 31,
-    "yorigin": 45,
+    "yorigin": 66,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

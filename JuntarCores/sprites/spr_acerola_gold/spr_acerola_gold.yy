@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54182c7e-0c10-48fd-a26f-1dec34863430",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4706582d-57a9-4a74-834c-75cf322d7105",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 84,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0be0580f-058c-4302-a2f3-b4d3ba60487a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2fd8e9af-c78a-4e7d-ba51-61ea9dd7555b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Frutas gold",
     "path": "folders/Sprites/Frutas gold.yy",
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54182c7e-0c10-48fd-a26f-1dec34863430","path":"sprites/spr_acerola_gold/spr_acerola_gold.yy",},},},"Disabled":false,"id":"0e8f34b5-0bf0-4353-85e0-eece1344a630","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4706582d-57a9-4a74-834c-75cf322d7105","path":"sprites/spr_acerola_gold/spr_acerola_gold.yy",},},},"Disabled":false,"id":"ed145abc-91ed-4b33-89a3-511397c54b5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 40,
-    "yorigin": 42,
+    "yorigin": 52,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

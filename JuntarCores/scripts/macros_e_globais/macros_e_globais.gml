@@ -3,7 +3,7 @@
 	 
 	 #macro GRID_X 80
 	 #macro GRID_Y 70 
-	 #macro SPD 5
+	 #macro SPD 7
 	 #macro X_MEIO 960
 	 #macro Y_MEIO 540
 	 #macro X_MAX 1920

@@ -33,6 +33,8 @@ if (fade_out)
 				}
 				else
 				{
+					show_debug_message(level_atual)
+					show_debug_message(array_length(info_leveis))
 					room_goto_next(); //caso normal - vai para próxima fase
 				}
 				

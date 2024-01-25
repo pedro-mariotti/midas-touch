@@ -31,7 +31,6 @@
     {"name":"rm_fase_9","order":8,"path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"spr_esteira_esq_baixo","order":2,"path":"sprites/spr_esteira_esq_baixo/spr_esteira_esq_baixo.yy",},
     {"name":"spr_amora","order":3,"path":"sprites/spr_amora/spr_amora.yy",},
-    {"name":"rm_fase_base","order":15,"path":"rooms/rm_fase_base/rm_fase_base.yy",},
     {"name":"rm_fase_10_mariotti","order":10,"path":"rooms/rm_fase_10_mariotti/rm_fase_10_mariotti.yy",},
     {"name":"spr_melancia_gold","order":11,"path":"sprites/spr_melancia_gold/spr_melancia_gold.yy",},
     {"name":"obj_rachaduras","order":2,"path":"objects/obj_rachaduras/obj_rachaduras.yy",},

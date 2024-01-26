@@ -1,9 +1,10 @@
 start = false;
 stop = false;
 gold = false;
-direcao = noone;
+direcao = "noone";
 ghost = instance_create_layer(x, y, "Mover", obj_collider_complementar)
 ghost.obj_relativo = self
+todasParadas = true;
 
 //if LIDER
 //{

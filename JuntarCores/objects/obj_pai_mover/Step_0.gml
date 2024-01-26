@@ -1,5 +1,8 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+
+mover(direcao);
+
+
+
 if(speed == 0) {
 	instance_activate_object(ghost)
 	ghost.x = x

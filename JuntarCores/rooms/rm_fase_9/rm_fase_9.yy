@@ -9,7 +9,6 @@
   "instanceCreationOrder": [
     {"name":"inst_54FFF42D_2","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_16F6BB37","path":"rooms/rm_fase_9/rm_fase_9.yy",},
-    {"name":"inst_54812C9E","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_291D4659","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_797F6606","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_2DA41C6F","path":"rooms/rm_fase_9/rm_fase_9.yy",},
@@ -40,6 +39,7 @@
     {"name":"inst_5A131E8C","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_3C240B06","path":"rooms/rm_fase_9/rm_fase_9.yy",},
     {"name":"inst_203C02CA","path":"rooms/rm_fase_9/rm_fase_9.yy",},
+    {"name":"inst_71A7234C","path":"rooms/rm_fase_9/rm_fase_9.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -69,20 +69,20 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Mover","depth":100,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_16F6BB37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_direita_baixo","path":"objects/obj_mover_direita_baixo/obj_mover_direita_baixo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":280.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54812C9E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_esquerda_baixo","path":"objects/obj_mover_esquerda_baixo/obj_mover_esquerda_baixo.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"tipo_fruta","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_kiwi",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":280.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_291D4659","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_idle","path":"objects/obj_idle/obj_idle.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"tipo_fruta","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_banana",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1360.0,"y":350.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54A6DDB5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_direita_baixo","path":"objects/obj_mover_direita_baixo/obj_mover_direita_baixo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":280.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71A7234C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mover_esquerda_baixo","path":"objects/obj_mover_esquerda_baixo/obj_mover_esquerda_baixo.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"tipo_fruta","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_kiwi",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":280.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Esteiras","depth":200,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_89D2C8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mudar_fruta","path":"objects/obj_mudar_fruta/obj_mudar_fruta.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_mudar_fruta","path":"objects/obj_mudar_fruta/obj_mudar_fruta.yy",},"propertyId":{"name":"fruta","path":"objects/obj_mudar_fruta/obj_mudar_fruta.yy",},"value":"spr_banana",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":560.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_797F6606","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rachaduras","path":"objects/obj_rachaduras/obj_rachaduras.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":420.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DA41C6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":420.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DA41C6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1040.0,"y":490.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_115AB12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ponte","path":"objects/obj_ponte/obj_ponte.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":420.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A131E8C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rachaduras","path":"objects/obj_rachaduras/obj_rachaduras.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":490.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C240B06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_esteira_direita_baixo","path":"objects/obj_esteira_direita_baixo/obj_esteira_direita_baixo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":720.0,"y":630.0,},

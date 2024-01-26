@@ -59,6 +59,7 @@
     {"name":"spr_baixo_esq","order":1,"path":"sprites/spr_baixo_esq/spr_baixo_esq.yy",},
     {"name":"spr_chao","order":8,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"spr_maca","order":10,"path":"sprites/spr_maca/spr_maca.yy",},
+    {"name":"spr_baixo_dir_mask","order":6,"path":"sprites/spr_baixo_dir_mask/spr_baixo_dir_mask.yy",},
     {"name":"spr_maca_gold","order":1,"path":"sprites/spr_maca_gold/spr_maca_gold.yy",},
     {"name":"obj_esteira_direita_baixo","order":1,"path":"objects/obj_esteira_direita_baixo/obj_esteira_direita_baixo.yy",},
     {"name":"rm_fase_6","order":5,"path":"rooms/rm_fase_6/rm_fase_6.yy",},

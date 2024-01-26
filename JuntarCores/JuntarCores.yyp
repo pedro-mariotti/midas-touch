@@ -80,6 +80,7 @@
     {"id":{"name":"spr_baixo_esq","path":"sprites/spr_baixo_esq/spr_baixo_esq.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_maca","path":"sprites/spr_maca/spr_maca.yy",},},
+    {"id":{"name":"spr_baixo_dir_mask","path":"sprites/spr_baixo_dir_mask/spr_baixo_dir_mask.yy",},},
     {"id":{"name":"obj_pai_esteira","path":"objects/obj_pai_esteira/obj_pai_esteira.yy",},},
     {"id":{"name":"spr_maca_gold","path":"sprites/spr_maca_gold/spr_maca_gold.yy",},},
     {"id":{"name":"obj_esteira_direita_baixo","path":"objects/obj_esteira_direita_baixo/obj_esteira_direita_baixo.yy",},},
@@ -129,6 +130,7 @@
     {"id":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_fase_14_mariotti","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_9","path":"rooms/rm_fase_9/rm_fase_9.yy",},},
     {"roomId":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
     {"roomId":{"name":"rm_fase_2","path":"rooms/rm_fase_2/rm_fase_2.yy",},},
@@ -142,7 +144,6 @@
     {"roomId":{"name":"rm_fase_11_mariotti","path":"rooms/rm_fase_11_mariotti/rm_fase_11_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_12_mariotti","path":"rooms/rm_fase_12_mariotti/rm_fase_12_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_13_mariotti","path":"rooms/rm_fase_13_mariotti/rm_fase_13_mariotti.yy",},},
-    {"roomId":{"name":"rm_fase_14_mariotti","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

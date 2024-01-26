@@ -1,34 +1,5 @@
-function colisao(){
-	if (_move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
-	{	
-		
-		if (_direcao == "direita_baixo") {
-		    direction = -41; // Mova para a direita
-			speed = SPD
-		} else if (_direcao == "direita_cima") {
-		    direction = 41; // Mova para a esquerda
-			speed = SPD
-		} else if (_direcao == "esquerda_cima") {
-		    direction = -41; // Mova para cima
-			speed = -SPD
-		} else if (_direcao == "esquerda_baixo") {
-			direction = 41;  // Mova para baixo
-			speed = -SPD
-		}
-		
-	} else {
-		if speed != 0 {
-			speed = 0;
-			start = false
-			stop = true;
-			alinhar_grid()	
-		}
-	}	
-}
-
 // Função mover
 function mover(_direcao) {
-	if stop {exit;}
 	if !start {exit;}
 	
 	var _move = true;
@@ -47,7 +18,7 @@ function mover(_direcao) {
 	
 	if (_move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
 	{	
-		
+		show_debug_message(place_meeting(x, y, obj_pai_mover))
 		if (_direcao == "direita_baixo") {
 		    direction = -41; // Mova para a direita
 			speed = SPD
@@ -64,12 +35,13 @@ function mover(_direcao) {
 		
 	} else {
 		if speed != 0 {
+			show_debug_message(place_meeting(x, y, obj_pai_mover))
 			speed = 0;
 			start = false
-			stop = true;
 			alinhar_grid()	
 		}
 	}
+	
 	
 }
 

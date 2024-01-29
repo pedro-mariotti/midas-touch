@@ -11,4 +11,4 @@ with(obj_pai_mover) {
     }
 }
 
-if todasParadas { start = true }
+if todasParadas { start = true}

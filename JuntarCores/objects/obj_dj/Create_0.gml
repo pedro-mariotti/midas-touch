@@ -8,7 +8,7 @@
 
 /// ----> Variáveis das músicas
 	globalvar msc_default;
-	msc_default	  = //trilha;
+	msc_default	  = snd_trilha_The_Kings_Kitchen;
 	
 /// <---- Variáveis das músicas
 

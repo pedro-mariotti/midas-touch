@@ -117,6 +117,7 @@
     {"name":"spr_pera_gold","order":14,"path":"sprites/spr_pera_gold/spr_pera_gold.yy",},
     {"name":"spr_kiwi","order":6,"path":"sprites/spr_kiwi/spr_kiwi.yy",},
     {"name":"spr_idle","order":4,"path":"sprites/spr_idle/spr_idle.yy",},
+    {"name":"rm_fase_14_teste_portal","order":21,"path":"rooms/rm_fase_14_teste_portal/rm_fase_14_teste_portal.yy",},
     {"name":"spr_aaaa45","order":17,"path":"sprites/spr_aaaa45/spr_aaaa45.yy",},
     {"name":"spr_logo_nome","order":19,"path":"sprites/spr_logo_nome/spr_logo_nome.yy",},
     {"name":"spr_logo_completa","order":18,"path":"sprites/spr_logo_completa/spr_logo_completa.yy",},

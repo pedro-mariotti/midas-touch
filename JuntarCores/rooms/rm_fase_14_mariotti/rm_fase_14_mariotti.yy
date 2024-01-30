@@ -53,6 +53,8 @@
     {"name":"inst_6E9F0EB7","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
     {"name":"inst_1088C1CC","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
     {"name":"inst_28A26CD8","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
+    {"name":"inst_6C92D12A","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
+    {"name":"inst_F99BE7","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -117,6 +119,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3343CC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_idle","path":"objects/obj_idle/obj_idle.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"propertyId":{"name":"tipo_fruta","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"value":"spr_banana",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1200.0,"y":560.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C92D12A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_portal_entrada","path":"objects/obj_portal_entrada/obj_portal_entrada.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_portal_entrada","path":"objects/obj_portal_entrada/obj_portal_entrada.yy",},"propertyId":{"name":"id_entrada","path":"objects/obj_portal_entrada/obj_portal_entrada.yy",},"value":"2",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":420.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F99BE7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_portal_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_portal_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"propertyId":{"name":"id_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"value":"2",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_portal_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"propertyId":{"name":"direcao","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"value":"\"esquerda_baixo\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":350.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Esteiras","depth":200,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13DEA7D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_esteira_esquerda_cima","path":"objects/obj_esteira_esquerda_cima/obj_esteira_esquerda_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1520.0,"y":420.0,},

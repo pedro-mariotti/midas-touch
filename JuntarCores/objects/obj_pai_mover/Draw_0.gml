@@ -17,3 +17,4 @@ if gold = true
 	draw_sprite(tipo_fruta,0, x, y)
 }
 
+draw_set_alpha(1);

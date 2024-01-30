@@ -1,3 +1,5 @@
+ocupado = false
+
 switch(direcao)
 {
 	case "direita_cima": image_index = 0 obj_criar = obj_mover_direita_cima break;
@@ -8,7 +10,7 @@ switch(direcao)
 
 function sair_portal(_tipo_fruta)
 {
-	var _obj_criado = instance_create_depth(x, y, 100, obj_criar, {tipo_fruta: _tipo_fruta}) //quero achar um jeito de colocar um alpha pro objeto todo
-	_obj_criado.click()
+	var _obj_criado = instance_create_depth(x, y, 100, obj_criar, {tipo_fruta: _tipo_fruta})
+	_obj_criado.click() //para movimentar a fruta assim q sai do portal
 }
 

@@ -4,7 +4,7 @@ gold = false;
 
 
 direcao = "noone";
-no_portal = false;
+
 ghost = instance_create_layer(x, y, "Mover", obj_collider_complementar)
 ghost.obj_relativo = self
 

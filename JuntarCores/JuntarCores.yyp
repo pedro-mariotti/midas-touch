@@ -155,6 +155,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_boot","path":"rooms/rm_boot/rm_boot.yy",},},
     {"roomId":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
+    {"roomId":{"name":"rm_fase_14_mariotti","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_2","path":"rooms/rm_fase_2/rm_fase_2.yy",},},
     {"roomId":{"name":"rm_fase_3","path":"rooms/rm_fase_3/rm_fase_3.yy",},},
     {"roomId":{"name":"rm_fase_4","path":"rooms/rm_fase_4/rm_fase_4.yy",},},
@@ -167,7 +168,6 @@
     {"roomId":{"name":"rm_fase_11_mariotti","path":"rooms/rm_fase_11_mariotti/rm_fase_11_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_12_mariotti","path":"rooms/rm_fase_12_mariotti/rm_fase_12_mariotti.yy",},},
     {"roomId":{"name":"rm_fase_13_mariotti","path":"rooms/rm_fase_13_mariotti/rm_fase_13_mariotti.yy",},},
-    {"roomId":{"name":"rm_fase_14_mariotti","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

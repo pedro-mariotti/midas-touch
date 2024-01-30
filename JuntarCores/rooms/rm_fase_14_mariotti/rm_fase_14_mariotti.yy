@@ -49,6 +49,8 @@
     {"name":"inst_752530D5","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
     {"name":"inst_5DC26C62","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
     {"name":"inst_18EAFCCB","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
+    {"name":"inst_3543F286","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
+    {"name":"inst_6E9F0EB7","path":"rooms/rm_fase_14_mariotti/rm_fase_14_mariotti.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -119,6 +121,10 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C79C772","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rachaduras","path":"objects/obj_rachaduras/obj_rachaduras.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":490.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F8292B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rachaduras","path":"objects/obj_rachaduras/obj_rachaduras.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1040.0,"y":560.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A90B307","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_esteira_esquerda_baixo","path":"objects/obj_esteira_esquerda_baixo/obj_esteira_esquerda_baixo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1200.0,"y":280.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3543F286","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_portal_entrada","path":"objects/obj_portal_entrada/obj_portal_entrada.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":350.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E9F0EB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_portal_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_portal_saida","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"propertyId":{"name":"direcao","path":"objects/obj_portal_saida/obj_portal_saida.yy",},"value":"\"direita_cima\"",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":630.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_272F07DB_2_1_1_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},"x":960.0,"y":490.0,},

@@ -2,27 +2,29 @@ start = false;
 
 gold = false;
 
-direcao = "noone";
 
+direcao = "noone";
+no_portal = false;
 ghost = instance_create_layer(x, y, "Mover", obj_collider_complementar)
 ghost.obj_relativo = self
 
 todasParadas = true;
 
-//if LIDER
-//{
-//	frutas = []
-//	with(obj_pai_mover)
-//	{
-//		if self.TIPO_FRUTA = obj_pai_mover.TIPO_FRUTA
-//		{
-//			array_insert(frutas, 0, obj_pai_mover)	
-//		}
-		
-//	}
-//	show_debug_message(frutas)
-//}
+click = function(){
+	
+	var todasParadas = true;
+	var _id = id;
+	// Loop através de todas as instâncias de obj_pai_mover
+	with(obj_pai_mover) {
+	    // Verifica se a instância está se movendo
+	    if (speed != 0 and id != _id) {
+	        todasParadas = false;
+	        break; // Sai do loop se encontrar uma instância se movendo
+	    }
+	}
 
+	if todasParadas {start = true}
 
+}
 
 alinhar_grid()

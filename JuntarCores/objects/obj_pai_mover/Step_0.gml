@@ -1,8 +1,6 @@
 
 mover(direcao);
 
-
-
 if(speed == 0) {
 	instance_activate_object(ghost)
 	ghost.x = x

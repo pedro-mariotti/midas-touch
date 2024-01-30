@@ -1,7 +1,7 @@
 // Função mover
 function mover(_direcao) {
 	if !start {exit;}
-	
+
 	var _move = true;
 	
 	if(place_meeting(x, y, obj_ponte)){
@@ -39,6 +39,7 @@ function mover(_direcao) {
 			show_debug_message(place_meeting(x, y, obj_pai_mover))
 			speed = 0;
 			start = false
+			pressionou = false;
 			alinhar_grid()	
 		}
 	}
@@ -51,8 +52,9 @@ function move_esteira(_dir){
 
 	obj = instance_nearest(x, y, obj_pai_mover);
 
-	if point_distance(x, y, obj.x, obj.y) <= SPD*1.15
-	{		
+	if point_distance(x, y, obj.x, obj.y) <= SPD
+	{	
+		alinhar_grid()
 		//troca sprite para a direção correta
 		switch(_dir){
 			case "direita_baixo": obj.sprite_index = spr_baixo_dir break;

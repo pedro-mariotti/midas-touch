@@ -16,7 +16,7 @@ function mover(_direcao) {
 		}
 	}
 	
-	if (_move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
+	if (!gold && _move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
 	{	
 		
 		show_debug_message(place_meeting(x, y, obj_pai_mover))

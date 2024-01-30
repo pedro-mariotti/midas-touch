@@ -1,6 +1,3 @@
-	 //globalvar lista_frutas;
-	 //lista_frutas = ["spr_acerola", "spr_ameixa", "spr_amora", "spr_azeitona", "spr_banana", "spr_cereja", "spr_kiwi", "spr_laranja", "spr_maca", "spr_manga", "spr_melancia", "spr_mirtilo", "spr_morango", "spr_pera", "spr_toranja"][0]
-	 
 	 #macro GRID_X 80
 	 #macro GRID_Y 70 
 	 #macro SPD 7
@@ -10,6 +7,10 @@
 	 #macro Y_MAX 1080
 
 	globalvar level_atual;
+	globalvar array_itens; //array de itens que o jogador tem para o level
+	globalvar lista_mudou; //booleano de controle para atualizar a lista de itens
+	globalvar tipo_fruta_lista; //variavel pra controlar qual muda fruta vai ser dado ao player
+	
 	level_atual = 1; 
 
 	globalvar fade_color;

@@ -5,7 +5,8 @@ gold = false;
 
 direcao = "noone";
 
-ghost = instance_create_layer(x, y, "Mover", obj_collider_complementar)
+//collider fantasma que serve para checar se existe objetos em uma das 4 casas adjacentes enquanto parado
+ghost = instance_create_layer(x, y, "Mover", obj_collider_complementar)//cria o collider fantasma e associa o collider a si mesmo
 ghost.obj_relativo = self
 
 todasParadas = true;

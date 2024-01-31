@@ -4,6 +4,7 @@
   "name": "obj_caixa",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -27,14 +28,14 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"item_dentro","filters":[],"listItems":[
-        "direita_cima",
-        "direita_baixo",
-        "esquerda_cima",
-        "esquerda_baixo",
-        "muda_fruta",
-        "rachadura",
-      ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"direita_cima","varType":6,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_fruta","filters":[],"listItems":[
+        "\"direita_cima\"",
+        "\"direita_baixo\"",
+        "\"esquerda_cima\"",
+        "\"esquerda_baixo\"",
+        "\"muda_fruta\"",
+        "\"rachadura\"",
+      ],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"direita_cima\"","varType":6,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_fruta_lista","filters":[],"listItems":[
         "spr_acerola",
         "spr_ameixa",
         "spr_amora",

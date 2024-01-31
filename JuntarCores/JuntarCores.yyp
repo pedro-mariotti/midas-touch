@@ -21,6 +21,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mecânicas adicionais","folderPath":"folders/Objetos/Mecânicas adicionais.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lista_itens","folderPath":"folders/Objetos/Mecânicas adicionais/Lista_itens.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mover","folderPath":"folders/Objetos/Mover.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Esteiras","folderPath":"folders/Objetos/Mover/Esteiras.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
@@ -33,7 +34,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Frutas coloridas","folderPath":"folders/Sprites/Frutas coloridas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Frutas gold","folderPath":"folders/Sprites/Frutas gold.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mover","folderPath":"folders/Sprites/Mover.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lista_itens","folderPath":"folders/Objetos/Mecânicas adicionais/Lista_itens.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":-1,"filePath":"datafiles",},
@@ -134,6 +134,7 @@
     {"id":{"name":"spr_esteira_dir_baixo","path":"sprites/spr_esteira_dir_baixo/spr_esteira_dir_baixo.yy",},},
     {"id":{"name":"rm_fase_3","path":"rooms/rm_fase_3/rm_fase_3.yy",},},
     {"id":{"name":"snd_andar","path":"sounds/snd_andar/snd_andar.yy",},},
+    {"id":{"name":"rm_fase_teste_caixa","path":"rooms/rm_fase_teste_caixa/rm_fase_teste_caixa.yy",},},
     {"id":{"name":"obj_container_lista","path":"objects/obj_container_lista/obj_container_lista.yy",},},
     {"id":{"name":"spr_esteira_esq_cima","path":"sprites/spr_esteira_esq_cima/spr_esteira_esq_cima.yy",},},
     {"id":{"name":"spr_acerola_gold","path":"sprites/spr_acerola_gold/spr_acerola_gold.yy",},},
@@ -163,6 +164,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_boot","path":"rooms/rm_boot/rm_boot.yy",},},
     {"roomId":{"name":"rm_fase_1","path":"rooms/rm_fase_1/rm_fase_1.yy",},},
+    {"roomId":{"name":"rm_fase_teste_caixa","path":"rooms/rm_fase_teste_caixa/rm_fase_teste_caixa.yy",},},
     {"roomId":{"name":"rm_fase_2","path":"rooms/rm_fase_2/rm_fase_2.yy",},},
     {"roomId":{"name":"rm_fase_3","path":"rooms/rm_fase_3/rm_fase_3.yy",},},
     {"roomId":{"name":"rm_fase_4","path":"rooms/rm_fase_4/rm_fase_4.yy",},},

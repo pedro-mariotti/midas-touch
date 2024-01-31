@@ -35,6 +35,9 @@ if (fade_out)
 				{
 					//show_debug_message(level_atual)
 					//show_debug_message(array_length(info_leveis))
+					array_itens = []
+					array_tipo_fruta_lista = []
+					
 					room_goto_next(); //caso normal - vai para próxima fase
 				}
 				

@@ -1,0 +1,1 @@
+if(other.speed == 0) instance_destroy(self) //se destroi caso esteja no mesmo lugar q um bloco de fruta

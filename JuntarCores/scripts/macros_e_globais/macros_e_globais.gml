@@ -9,9 +9,11 @@
 	globalvar level_atual;
 	globalvar array_itens; //array de itens que o jogador tem para o level
 	globalvar lista_mudou; //booleano de controle para atualizar a lista de itens
-	globalvar tipo_fruta_lista; //variavel pra controlar qual muda fruta vai ser dado ao player
+	globalvar array_tipo_fruta_lista; //variavel pra controlar qual muda fruta vai ser dado ao player
 	
+	array_tipo_fruta_lista = []
 	array_itens = []
+	lista_mudou = false
 	level_atual = 1; 
 
 	globalvar fade_color;

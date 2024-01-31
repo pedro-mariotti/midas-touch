@@ -36,7 +36,7 @@ function mover(_direcao) {
 		
 	} else {
 		if speed != 0 {
-			show_debug_message(place_meeting(x, y, obj_pai_mover))
+			//show_debug_message(place_meeting(x, y, obj_pai_mover))
 			speed = 0;
 			start = false
 			pressionou = false;

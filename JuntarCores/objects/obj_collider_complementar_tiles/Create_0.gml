@@ -1,0 +1,6 @@
+obj_relativo = noone
+
+
+
+
+

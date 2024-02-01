@@ -1,10 +1,12 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-item_respectivo = " " // qual item esse objeto representa
-muda_fruta_respectivo = " "
+item_respectivo = " " // qual item esse objeto vai instanciar no tabuleiro
+muda_fruta_respectivo = " " //caso seja muda fruta, qual fruta e pra mudar
+
+
 item_criado = false
 
-meu_index = 0
+meu_index = 0 //index do item na globalvar array_itens
+index_muda_fruta = 0 // index do muda fruta respectivo na globalvar array_tipo_fruta_lista
+
 
 estou_movendo = false;
 

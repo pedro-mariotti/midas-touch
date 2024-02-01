@@ -136,6 +136,7 @@
     {"id":{"name":"spr_ameixa","path":"sprites/spr_ameixa/spr_ameixa.yy",},},
     {"id":{"name":"spr_esteira_dir_baixo","path":"sprites/spr_esteira_dir_baixo/spr_esteira_dir_baixo.yy",},},
     {"id":{"name":"rm_fase_14","path":"rooms/rm_fase_14/rm_fase_14.yy",},},
+    {"id":{"name":"animacoes","path":"scripts/animacoes/animacoes.yy",},},
     {"id":{"name":"snd_andar","path":"sounds/snd_andar/snd_andar.yy",},},
     {"id":{"name":"rm_fase_teste_caixa","path":"rooms/rm_fase_teste_caixa/rm_fase_teste_caixa.yy",},},
     {"id":{"name":"obj_container_lista","path":"objects/obj_container_lista/obj_container_lista.yy",},},

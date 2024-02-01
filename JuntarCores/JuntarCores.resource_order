@@ -107,6 +107,7 @@
     {"name":"spr_mirtilo","order":13,"path":"sprites/spr_mirtilo/spr_mirtilo.yy",},
     {"name":"spr_ameixa","order":2,"path":"sprites/spr_ameixa/spr_ameixa.yy",},
     {"name":"rm_fase_14","order":2,"path":"rooms/rm_fase_14/rm_fase_14.yy",},
+    {"name":"animacoes","order":6,"path":"scripts/animacoes/animacoes.yy",},
     {"name":"snd_andar","order":2,"path":"sounds/snd_andar/snd_andar.yy",},
     {"name":"rm_fase_teste_caixa","order":22,"path":"rooms/rm_fase_teste_caixa/rm_fase_teste_caixa.yy",},
     {"name":"obj_container_lista","order":2,"path":"objects/obj_container_lista/obj_container_lista.yy",},

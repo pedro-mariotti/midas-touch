@@ -20,10 +20,10 @@
 	fade_color = make_color_rgb(254,210,122);
 	
 	function tocar_som(_sound, _loop=false){
-		var _is_playing = audio_is_playing(_sound)
-		if(!_is_playing and sound_playing){
-			return audio_play_sound(_sound, 0, _loop);
-		}
+		//var _is_playing = audio_is_playing(_sound)
+		
+		return audio_play_sound(_sound, 0, _loop);
+		
 	}
 	
 	function tocar_musica(_music, _loop=false){

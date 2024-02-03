@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Esteiras",
-    "path": "folders/Objetos/Mover/Esteiras.yy",
+    "path": "folders/Objetos/Mecânicas adicionais/Esteiras.yy",
   },
   "parentObjectId": {
     "name": "obj_pai_esteira",

@@ -1,11 +1,13 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+//Rastrear se o som já foi tocado
+
+
+// Verifica se o som já foi tocado antes de chamar a função
 if other.obj_relativo.tipo_fruta == self.obj_relativo.tipo_fruta {
-	other.obj_relativo.gold = true
-	self.obj_relativo.gold = true
-	check_gold()
+    if !sound_played {
+        other.obj_relativo.gold = true
+        self.obj_relativo.gold = true
+        tocar_som(snd_gold_2)
+        sound_played = true; // Marca que o som foi tocado
+        check_gold()
+    }
 }
-
-
-
-

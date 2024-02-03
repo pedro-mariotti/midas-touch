@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.124989,
+  "duration": 1.097143,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_chao_rachando.wav",
+  "soundFile": "snd_chao_rachando.mp3",
   "type": 0,
   "volume": 1.0,
 }

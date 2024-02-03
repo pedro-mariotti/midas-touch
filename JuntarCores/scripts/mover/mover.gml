@@ -64,5 +64,6 @@ function move_esteira(_dir){
 			
 		}
 		obj.direcao = _dir
+	
 	}
 }

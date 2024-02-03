@@ -4,12 +4,14 @@
   "name": "obj_pai_esteira",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_pai_mover","path":"objects/obj_pai_mover/obj_pai_mover.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Esteiras",
-    "path": "folders/Objetos/Mover/Esteiras.yy",
+    "path": "folders/Objetos/Mecânicas adicionais/Esteiras.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -138,5 +138,6 @@
     {"name":"obj_mover_direita_baixo","order":1,"path":"objects/obj_mover_direita_baixo/obj_mover_direita_baixo.yy",},
     {"name":"spr_melancia","order":12,"path":"sprites/spr_melancia/spr_melancia.yy",},
     {"name":"rm_fase_4","order":4,"path":"rooms/rm_fase_4/rm_fase_4.yy",},
+    {"name":"obj_anim_item_lista","order":3,"path":"objects/obj_anim_item_lista/obj_anim_item_lista.yy",},
   ],
 }

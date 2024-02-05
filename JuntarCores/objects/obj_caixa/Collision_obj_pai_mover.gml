@@ -23,6 +23,8 @@ switch(item_dentro) {
 	break
 }
 
+// instancia o item responsavel por executar a animacao e atribui o ultimo item da lista a ele como referencia
+var _inst = instance_create_layer(x,y, "Controle", obj_anim_item_lista)
 lista_mudou = true
 
 instance_destroy(self)

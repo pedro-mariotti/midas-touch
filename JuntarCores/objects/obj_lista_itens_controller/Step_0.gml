@@ -16,6 +16,7 @@ if(lista_mudou) {
 			//instancia o sprite de background do item e o item em si na barra
 			var _item = instance_create_layer(x, y + _temp_y, "Controle", obj_item_da_lista)
 			instance_create_layer(x,y + _temp_y, "Controle", obj_container_lista)
+						
 			_item.item_respectivo = array_itens[_i]
 			_item.meu_index = _i
 			
@@ -25,6 +26,9 @@ if(lista_mudou) {
 				_item.muda_fruta_respectivo = array_tipo_fruta_lista[_j]
 				_item.index_muda_fruta = _j
 				_j++
+			}
+			if(_i == _tamanho_lista - 1) {
+				ultimo_item_lista = _item
 			}
 
 			_temp_y += obj_container_lista.sprite_height + 20

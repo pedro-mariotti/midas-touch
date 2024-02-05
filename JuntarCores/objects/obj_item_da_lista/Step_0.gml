@@ -30,6 +30,7 @@ if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_lef
 	xoffset = x - mouse_x;
 	yoffset = y - mouse_y;
 	estou_movendo = true;
+
 }
 
 //AGARRA O OBJETO
@@ -77,3 +78,4 @@ if(!position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo) 
 
 	instance_destroy(self)
 }
+

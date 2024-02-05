@@ -50,6 +50,7 @@ if(!position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo) 
 	y = posicao.inicial_y;
 } else if(position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo ) { // Nao estou movendo e colidi com um collider apropriado
 	//instancia os itens quando solto no tabuleiro		
+	if !sound_played tocar_som(snd_coloca_item) sound_played = true;
 	alinhar_grid()
 	switch(item_respectivo) {
 		case "direita_cima":

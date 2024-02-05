@@ -19,7 +19,7 @@ function mover(_direcao) {
 	if (!gold && _move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
 	{	
 		
-		show_debug_message(place_meeting(x, y, obj_pai_mover))
+		
 		if (_direcao == "direita_baixo") {
 		    direction = -41; // Mova para a direita
 			speed = SPD

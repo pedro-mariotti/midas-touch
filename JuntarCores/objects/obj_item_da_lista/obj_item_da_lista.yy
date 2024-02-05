@@ -29,9 +29,6 @@
   "properties": [],
   "solid": false,
   "spriteId": null,
-  "spriteMaskId": {
-    "name": "spr_mascara_colisao_item_lista",
-    "path": "sprites/spr_mascara_colisao_item_lista/spr_mascara_colisao_item_lista.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

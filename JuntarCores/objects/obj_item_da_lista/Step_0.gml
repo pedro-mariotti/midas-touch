@@ -27,6 +27,7 @@ if(item_respectivo != " " and item_criado == false) {
 }
  //ARRASTANDO O OBJETO
 if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_left)) {
+	mask_index = spr_mascara_colisao_item_lista
 	xoffset = x - mouse_x;
 	yoffset = y - mouse_y;
 	estou_movendo = true;

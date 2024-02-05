@@ -1,6 +1,6 @@
+if !sound_played tocar_som(snd_caixa) sound_played = true;
 //na hora da colisão, dependendo da variável,
 //insere o item desejado no array de itens do jogador
-
 switch(item_dentro) {
 	case "direita_cima":
 		array_push(array_itens, "direita_cima")

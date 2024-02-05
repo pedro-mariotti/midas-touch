@@ -1,6 +1,3 @@
-
-//define o sprite do item
-
  //ARRASTANDO O OBJETO
 if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_left)) {
 	mask_index = spr_mascara_colisao_item_lista

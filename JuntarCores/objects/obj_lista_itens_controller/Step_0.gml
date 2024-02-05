@@ -29,6 +29,7 @@ if(lista_mudou) {
 			}
 			if(_i == _tamanho_lista - 1) {
 				ultimo_item_lista = _item
+				show_debug_message("sprite do ultimo = " + _item.item_respectivo)
 			}
 
 			_temp_y += obj_container_lista.sprite_height + 20

@@ -1,6 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+//define o sprite do item
 if(item_respectivo != " " and item_criado == false) {
 	switch(item_respectivo) {
 		case "direita_cima":
@@ -26,8 +27,9 @@ if(item_respectivo != " " and item_criado == false) {
 	show_debug_message("item criado com item = " + item_respectivo)
 	item_criado = true
 }
-if instance_exists(obj_anim_item_lista) and self == ultimo_item_lista {}
-else draw_self()
+if self.sprite_index == ultimo_item_lista.sprite_index and instance_exists(obj_anim_item_lista) {} else draw_self()
+
+
 
 
 

@@ -18,4 +18,5 @@ posicao = {
 yoffset = 0
 xoffset = 0
 
+anim_terminou = false
 

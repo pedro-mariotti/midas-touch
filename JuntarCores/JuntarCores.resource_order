@@ -74,7 +74,6 @@
     {"name":"spr_aaaa4552","order":20,"path":"sprites/spr_aaaa4552/spr_aaaa4552.yy",},
     {"name":"spr_chao","order":8,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"spr_maca","order":10,"path":"sprites/spr_maca/spr_maca.yy",},
-    {"name":"spr_baixo_dir_mask","order":6,"path":"sprites/spr_baixo_dir_mask/spr_baixo_dir_mask.yy",},
     {"name":"spr_maca_gold","order":1,"path":"sprites/spr_maca_gold/spr_maca_gold.yy",},
     {"name":"spr_barra_item","order":24,"path":"sprites/spr_barra_item/spr_barra_item.yy",},
     {"name":"obj_esteira_direita_baixo","order":1,"path":"objects/obj_esteira_direita_baixo/obj_esteira_direita_baixo.yy",},

@@ -96,7 +96,6 @@
     {"id":{"name":"spr_aaaa4552","path":"sprites/spr_aaaa4552/spr_aaaa4552.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_maca","path":"sprites/spr_maca/spr_maca.yy",},},
-    {"id":{"name":"spr_baixo_dir_mask","path":"sprites/spr_baixo_dir_mask/spr_baixo_dir_mask.yy",},},
     {"id":{"name":"obj_pai_esteira","path":"objects/obj_pai_esteira/obj_pai_esteira.yy",},},
     {"id":{"name":"spr_maca_gold","path":"sprites/spr_maca_gold/spr_maca_gold.yy",},},
     {"id":{"name":"spr_barra_item","path":"sprites/spr_barra_item/spr_barra_item.yy",},},

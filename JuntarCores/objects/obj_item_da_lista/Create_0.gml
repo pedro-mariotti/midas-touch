@@ -20,5 +20,5 @@ xoffset = 0
 
 anim_terminou = false
 
-
+start_mask_index = mask_index
 

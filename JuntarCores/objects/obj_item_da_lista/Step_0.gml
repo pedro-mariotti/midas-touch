@@ -23,6 +23,7 @@ if(item_respectivo != " " and item_criado == false) {
 	}
 	show_debug_message("item criado com item = " + item_respectivo)
 	item_criado = true
+	start_mask_index = mask_index
 }
 
 //ARRASTANDO O OBJETO
@@ -49,6 +50,7 @@ if(mouse_check_button_released(mb_left)){
 if(!position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo) {
 	x = posicao.inicial_x;
 	y = posicao.inicial_y;
+	mask_index = start_mask_index
 } else if(position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo ) { // Nao estou movendo e colidi com um collider apropriado
 	
 	if !sound_played tocar_som(snd_coloca_item) sound_played = true;

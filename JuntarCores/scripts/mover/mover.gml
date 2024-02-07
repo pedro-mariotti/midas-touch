@@ -16,7 +16,7 @@ function mover(_direcao) {
 		}
 	}
 	
-	if (!gold && _move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
+	if (!portal && !gold && _move && !place_meeting(x + 1, y, obj_parede) && !place_meeting(x + 1, y, obj_pai_mover))
 	{	
 		
 		

@@ -2,6 +2,7 @@ start = false;
 
 gold = false;
 
+portal = false;
 
 direcao = "noone";
 

@@ -32,6 +32,7 @@ if (_inst != noone)
 				    _inst.speed = 0;
 				    // Reduz a opacidade do objeto ao longo do tempo
 				    _inst.image_alpha -= 0.02; 
+					_inst.portal = true;
 					if !other.sound_played tocar_som(snd_portal2) other.sound_played = true;
 				    // Verifica se a opacidade atingiu o mínimo desejado (0 no caso)
 				    if (_inst.image_alpha <= 0)

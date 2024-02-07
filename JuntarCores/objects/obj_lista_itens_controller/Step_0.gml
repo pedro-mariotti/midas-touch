@@ -20,6 +20,7 @@ if(lista_mudou) {
 			_item.item_respectivo = array_itens[_i]
 			_item.meu_index = _i
 			
+			
 			//se for um item do tipo muda fruta, guarda qual e o tipo da fruta do muda frtua
 			if(array_itens[_i] == "muda_fruta") {
 				show_debug_message("index j = " + string(_j))

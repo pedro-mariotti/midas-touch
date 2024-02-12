@@ -26,6 +26,8 @@ switch(item_dentro) {
 // instancia o item responsavel por executar a animacao
 if instance_exists(obj_anim_item_lista) instance_destroy(obj_anim_item_lista)
 instance_create_layer(x,y, "Controle", obj_anim_item_lista)
+instance_create_layer(x,y,"Colliders", obj_collider_complementar_tiles)
+//_inst.meu_item = item_dentro
 
 
 lista_mudou = true

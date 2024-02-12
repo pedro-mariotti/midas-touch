@@ -56,6 +56,9 @@ if(!position_meeting(x, y, obj_collider_complementar_tiles) and !estou_movendo) 
 	if !sound_played tocar_som(snd_coloca_item) sound_played = true;
 	
 	//alinha o objeto na grid antes de instanciar o objeto no tabuleiro
+	var _inst_prox = instance_nearest(x, y, obj_collider_complementar_tiles)
+	x = _inst_prox.x
+	y = _inst_prox.y
 	alinhar_grid()
 	
 	//instancia os itens quando solto no tabuleiro	

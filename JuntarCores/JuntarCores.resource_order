@@ -99,7 +99,7 @@
     {"name":"rm_fase_10","order":19,"path":"rooms/rm_fase_10/rm_fase_10.yy",},
     {"name":"spr_mascara_colisao_item_lista","order":7,"path":"sprites/spr_mascara_colisao_item_lista/spr_mascara_colisao_item_lista.yy",},
     {"name":"spr_morango_gold","order":13,"path":"sprites/spr_morango_gold/spr_morango_gold.yy",},
-    {"name":"rm_fase_11","order":17,"path":"rooms/rm_fase_11/rm_fase_11.yy",},
+    {"name":"rm_fase_11_arquivada","order":17,"path":"rooms/rm_fase_11_arquivada/rm_fase_11_arquivada.yy",},
     {"name":"rm_fase_6","order":6,"path":"rooms/rm_fase_6/rm_fase_6.yy",},
     {"name":"rm_fase_12","order":16,"path":"rooms/rm_fase_12/rm_fase_12.yy",},
     {"name":"spr_toranja_gold","order":15,"path":"sprites/spr_toranja_gold/spr_toranja_gold.yy",},
@@ -139,5 +139,6 @@
     {"name":"spr_melancia","order":12,"path":"sprites/spr_melancia/spr_melancia.yy",},
     {"name":"rm_fase_4","order":4,"path":"rooms/rm_fase_4/rm_fase_4.yy",},
     {"name":"obj_anim_item_lista","order":3,"path":"objects/obj_anim_item_lista/obj_anim_item_lista.yy",},
+    {"name":"rm_fase_11","order":23,"path":"rooms/rm_fase_11/rm_fase_11.yy",},
   ],
 }

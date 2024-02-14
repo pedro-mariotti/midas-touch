@@ -6,6 +6,7 @@ draw_self()
 
 if gold = true
 {	
+	sprite_index = spr_idle_gold
 	var _spr_name = sprite_get_name(tipo_fruta)
 	var _spr_gold_name =  _spr_name + "_gold";
 	

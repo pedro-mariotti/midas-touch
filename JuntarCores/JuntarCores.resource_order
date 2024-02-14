@@ -70,6 +70,7 @@
     {"name":"obj_parede","order":2,"path":"objects/obj_parede/obj_parede.yy",},
     {"name":"rm_fase_2","order":1,"path":"rooms/rm_fase_2/rm_fase_2.yy",},
     {"name":"obj_portal_saida","order":5,"path":"objects/obj_portal_saida/obj_portal_saida.yy",},
+    {"name":"spr_idle_gold","order":21,"path":"sprites/spr_idle_gold/spr_idle_gold.yy",},
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
     {"name":"spr_baixo_esq","order":1,"path":"sprites/spr_baixo_esq/spr_baixo_esq.yy",},
     {"name":"spr_teleporte_entrada","order":11,"path":"sprites/spr_teleporte_entrada/spr_teleporte_entrada.yy",},

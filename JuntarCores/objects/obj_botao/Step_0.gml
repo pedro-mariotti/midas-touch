@@ -16,3 +16,6 @@ else
 		array_pontes[_i].estado_ponte = "aberto";
 	}
 }
+
+
+if pressionado image_index = 1 else image_index = 0;

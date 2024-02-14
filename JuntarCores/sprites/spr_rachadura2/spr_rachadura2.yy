@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_rachadura",
-  "bbox_bottom": 117,
-  "bbox_left": 5,
-  "bbox_right": 144,
-  "bbox_top": 1,
+  "name": "spr_rachadura2",
+  "bbox_bottom": 120,
+  "bbox_left": 4,
+  "bbox_right": 145,
+  "bbox_top": -1,
   "bboxMode": 2,
   "collisionKind": 3,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"adfba82d-dc34-445d-8fb7-4b3b5334104b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"559faadc-548d-410e-8959-359e9e377585",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 130,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"97399acf-ee0b-4fa6-a707-85d5b538752f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e178a4a-b1f4-48e2-8af1-0c5a4b60189d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_rachadura",
+    "name": "spr_rachadura2",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"adfba82d-dc34-445d-8fb7-4b3b5334104b","path":"sprites/spr_rachadura/spr_rachadura.yy",},},},"Disabled":false,"id":"c0150431-7af1-4999-8cf4-c521123e6fdc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"559faadc-548d-410e-8959-359e9e377585","path":"sprites/spr_rachadura2/spr_rachadura2.yy",},},},"Disabled":false,"id":"aa29c616-ee9c-4f21-8abd-851b93b0270b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

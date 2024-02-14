@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_parede",
-    "path": "sprites/spr_parede/spr_parede.yy",
+    "name": "spr_botao",
+    "path": "sprites/spr_botao/spr_botao.yy",
   },
   "spriteMaskId": null,
   "visible": true,

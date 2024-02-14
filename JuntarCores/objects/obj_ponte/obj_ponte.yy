@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_aaaa",
-    "path": "sprites/spr_aaaa/spr_aaaa.yy",
+    "name": "spr_ponte",
+    "path": "sprites/spr_ponte/spr_ponte.yy",
   },
   "spriteMaskId": null,
   "visible": true,

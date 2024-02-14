@@ -37,8 +37,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_aaaa4554",
-    "path": "sprites/spr_aaaa4554/spr_aaaa4554.yy",
+    "name": "spr_teleporte_saida",
+    "path": "sprites/spr_teleporte_saida/spr_teleporte_saida.yy",
   },
   "spriteMaskId": null,
   "visible": true,

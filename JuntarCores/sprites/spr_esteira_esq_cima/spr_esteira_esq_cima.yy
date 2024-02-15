@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Esteira",
-    "path": "folders/Sprites/Esteira.yy",
+    "path": "folders/Sprites/Mecânicas adicionais/Esteira.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Rachadura",
+    "path": "folders/Sprites/Mecânicas adicionais/Rachadura.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

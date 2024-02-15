@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mecânicas adicionais",
+    "path": "folders/Sprites/Mecânicas adicionais.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

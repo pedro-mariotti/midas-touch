@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Chão",
+    "path": "folders/Sprites/Chão.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

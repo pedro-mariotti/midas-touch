@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Ponte_Botão",
+    "path": "folders/Sprites/Mecânicas adicionais/Ponte_Botão.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

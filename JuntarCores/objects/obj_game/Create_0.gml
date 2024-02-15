@@ -6,3 +6,6 @@
 	
 	globalvar room_anterior;
 	room_anterior = room; 
+	
+	instance_create_layer(X_MAX-350, Y_MAX-1050, "Controle", obj_bt_selec_level)
+	instance_create_layer(X_MAX-200, Y_MAX-1050, "Controle", obj_bt_config)

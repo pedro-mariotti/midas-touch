@@ -14,5 +14,14 @@ function animacao_item_indo_pra_lista(_item, _anim_start, _anim_end, _target_x, 
 	}
 }
 
+function btn_initial_animation() {
+	image_xscale = .85;
+	image_yscale = .85;
+}
 
+function btn_final_animation() {
+	if image_xscale<1 image_xscale+=0.01;
+    if image_xscale>1 image_xscale=1;
+    image_yscale=image_xscale;
+}
 

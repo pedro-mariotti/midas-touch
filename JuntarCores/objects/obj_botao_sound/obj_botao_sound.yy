@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bt_sound",
-    "path": "sprites/spr_bt_sound/spr_bt_sound.yy",
+    "name": "spr_bt_som",
+    "path": "sprites/spr_bt_som/spr_bt_som.yy",
   },
   "spriteMaskId": null,
   "visible": true,

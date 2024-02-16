@@ -37,7 +37,7 @@ if (_inst != noone)
 				    // Verifica se a opacidade atingiu o mínimo desejado (0 no caso)
 				    if (_inst.image_alpha <= 0)
 				    {
-							show_debug_message("sair")
+							//show_debug_message("sair")
 							//Função para sair do portal 
 							sair_portal(_inst.tipo_fruta)
 							other.sound_played = false

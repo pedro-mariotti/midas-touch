@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bt_music",
-    "path": "sprites/spr_bt_music/spr_bt_music.yy",
+    "name": "spr_bt_musica",
+    "path": "sprites/spr_bt_musica/spr_bt_musica.yy",
   },
   "spriteMaskId": null,
   "visible": true,

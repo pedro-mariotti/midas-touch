@@ -9,6 +9,7 @@ function ini_load(){
 		info_leveis[_i] = ini_read_real("leveis", "lvl_"+string(_i), _default);
 		
 	}
+	fases_completas = ini_read_real("fases_completas", "total_completas", 0);
 	ini_close();
 }
 
@@ -20,6 +21,7 @@ function ini_save(){
 	{
 	  ini_write_real("leveis", "lvl_"+string(_i), info_leveis[_i] );
 	}
+	ini_write_real("fases_completas", "total_completas", fases_completas);
 	ini_close();
 	
 }

@@ -6,4 +6,4 @@ code_versao = "1.0.0"
 
 ini_load();
 
-//room_anterior = rm_home;
+room_anterior = rm_home;

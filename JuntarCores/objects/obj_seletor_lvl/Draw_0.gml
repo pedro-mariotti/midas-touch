@@ -22,3 +22,5 @@ if status != STATUS_LEVEL.BLOQUEADO
 	draw_set_halign(-1);
 	draw_set_valign(-1);
 }
+
+btn_final_animation()

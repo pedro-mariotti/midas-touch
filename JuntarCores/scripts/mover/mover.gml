@@ -7,12 +7,12 @@ function mover(_direcao) {
 	if(place_meeting(x, y, obj_ponte)){
 		if instance_nearest(x, y, obj_ponte).estado_ponte == "aberto"{
 			_move = false;	
-			show_debug_message("aberto")
+			//show_debug_message("aberto")
 		}
 		else
 		{
 			_move = true;
-			show_debug_message("fechado")
+			//show_debug_message("fechado")
 		}
 	}
 	

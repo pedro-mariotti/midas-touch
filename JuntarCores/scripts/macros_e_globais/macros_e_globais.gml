@@ -11,12 +11,16 @@
 	globalvar lista_mudou; //booleano de controle para atualizar a lista de itens
 	globalvar array_tipo_fruta_lista; //variavel pra controlar qual muda fruta vai ser dado ao player
 	globalvar ultimo_item_lista;
+	globalvar fases_completas;
+	globalvar meu_index; //index do item na globalvar array_itens
 	
 	ultimo_item_lista = noone;
 	array_tipo_fruta_lista = []
 	array_itens = []
 	lista_mudou = false
 	level_atual = 1; 
+	fases_completas = 0;
+	meu_index = 0;
 
 	globalvar fade_color;
 	fade_color = make_color_rgb(254,210,122);

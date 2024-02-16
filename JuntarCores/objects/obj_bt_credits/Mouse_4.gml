@@ -1,4 +1,3 @@
-//room_goto(rm_selec_leveis)
-
-
-btn_click_animation()
+tocar_som(snd_click)
+btn_initial_animation()
+alarm[0] = 6

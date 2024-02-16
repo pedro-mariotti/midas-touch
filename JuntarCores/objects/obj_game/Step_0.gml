@@ -22,6 +22,14 @@ if (fade_out)
 					}
 				}
 				level_atual++;
+				
+				if(fases_completas < 15)
+				{
+					//show_debug_message("entrou")
+					fases_completas += 1;
+				}
+				
+				//show_debug_message(fases_completas)
 				ini_save()
 			
 				//coolmathAdBreak();//ad
@@ -39,6 +47,7 @@ if (fade_out)
 					array_tipo_fruta_lista = []
 					
 					room_goto_next(); //caso normal - vai para próxima fase
+					instance_destroy()
 				}
 				
 

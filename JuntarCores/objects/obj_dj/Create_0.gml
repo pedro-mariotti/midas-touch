@@ -8,7 +8,7 @@
 
 /// ----> Variáveis das músicas
 	globalvar msc_default;
-	msc_default	  = snd_trilha_Short_Version_1;
+	msc_default	  = snd_trilha;
 	
 /// <---- Variáveis das músicas
 

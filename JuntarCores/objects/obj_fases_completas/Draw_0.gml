@@ -1,6 +1,6 @@
 draw_self()
 draw_set_color(make_color_rgb(66, 64, 64))
-draw_set_font(font_40px)
+draw_set_font(font_60px)
 draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 

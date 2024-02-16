@@ -27,7 +27,6 @@ if (fade_out)
 					}
 				}
 
-				level_atual++;
 				
 				//show_debug_message(fases_completas)
 				ini_save()
@@ -36,8 +35,10 @@ if (fade_out)
 					
 				//coolmathCallLevelStart(level_atual);//dados 
 					
-				if level_atual == array_length(info_leveis)+1{
-					room_goto(rm_fase_1);	
+				
+				if(level_atual == TOTAL_FASES or fases_completas == TOTAL_FASES)
+				{
+					room_goto(rm_selec_leveis)
 				}
 				else
 				{
@@ -46,16 +47,15 @@ if (fade_out)
 					array_itens = []
 					array_tipo_fruta_lista = []
 					
+					level_atual++;
 					room_goto_next(); //caso normal - vai para próxima fase
+					
 					instance_destroy()
 				}
-				
 
 			}
 			
 	    }
-		
-		
-	
+
 	}
 

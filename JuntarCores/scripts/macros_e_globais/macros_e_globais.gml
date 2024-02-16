@@ -5,6 +5,7 @@
 	 #macro Y_MEIO 540
 	 #macro X_MAX 1920
 	 #macro Y_MAX 1080
+	 #macro TOTAL_FASES 15
 
 	globalvar level_atual;
 	globalvar array_itens; //array de itens que o jogador tem para o level

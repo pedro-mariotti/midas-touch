@@ -37,8 +37,6 @@
     {"name":"inst_1E770E3F","path":"rooms/rm_fase_10/rm_fase_10.yy",},
     {"name":"inst_D32EE8D","path":"rooms/rm_fase_10/rm_fase_10.yy",},
     {"name":"inst_6204728","path":"rooms/rm_fase_10/rm_fase_10.yy",},
-    {"name":"inst_4CEFCA3","path":"rooms/rm_fase_10/rm_fase_10.yy",},
-    {"name":"inst_4B7443DD","path":"rooms/rm_fase_10/rm_fase_10.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -62,8 +60,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E770E3F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1200.0,"y":700.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D32EE8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":630.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6204728","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1360.0,"y":560.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CEFCA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_botao_music","path":"objects/obj_botao_music/obj_botao_music.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1520.0,"y":140.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B7443DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_botao_sound","path":"objects/obj_botao_sound/obj_botao_sound.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1680.0,"y":140.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Mover","depth":100,"effectEnabled":true,"effectType":null,"gridX":80,"gridY":70,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_581D2BC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_idle","path":"objects/obj_idle/obj_idle.yy",},"properties":[

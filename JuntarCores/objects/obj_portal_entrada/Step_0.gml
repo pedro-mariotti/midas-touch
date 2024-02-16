@@ -2,7 +2,7 @@
 with(obj_portal_saida){ 
 	if (other.id_entrada == id_saida) 
 	{
-		if !ocupado other.image_index = 0 else other.image_index = 1; 
+		if ocupado {other.image_speed = .5 other.image_blend = c_gray;}
 	}
 }
 

@@ -7,7 +7,7 @@
 		_alpha+=_add_alpha
 
 		if _alpha>3 {_add_alpha=-0.08}
-		if _alpha<-1 {room_goto(rm_selec_leveis)}
+		if _alpha<-1 {room_goto(rm_home)}
 
 /// <---- TRATAR _alpha:
 

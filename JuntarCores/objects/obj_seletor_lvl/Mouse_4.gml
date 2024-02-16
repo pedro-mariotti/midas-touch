@@ -1,3 +1,4 @@
+btn_click_animation()
 if(status = STATUS_LEVEL.DESBLOQUEADO or status = STATUS_LEVEL.COMPLETO)
 {
 	level_atual = level;

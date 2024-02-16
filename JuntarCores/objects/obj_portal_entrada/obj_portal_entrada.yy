@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_teleporte_entrada",
-    "path": "sprites/spr_teleporte_entrada/spr_teleporte_entrada.yy",
+    "name": "spr_telep_entrada",
+    "path": "sprites/spr_telep_entrada/spr_telep_entrada.yy",
   },
   "spriteMaskId": null,
   "visible": true,

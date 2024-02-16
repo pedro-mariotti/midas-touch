@@ -1,1 +1,1 @@
-room_goto(rm_selec_leveis)
+room_goto(rm_home)

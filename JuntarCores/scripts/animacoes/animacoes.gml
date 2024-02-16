@@ -13,3 +13,6 @@ function animacao_item_indo_pra_lista(_item, _anim_start, _anim_end, _target_x, 
 		instance_destroy(self)
 	}
 }
+
+
+

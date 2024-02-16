@@ -2,7 +2,16 @@
 with(obj_portal_saida){ 
 	if (other.id_entrada == id_saida) 
 	{
-		if ocupado {other.image_speed = .5 other.image_blend = c_gray;}
+		if ocupado 
+		{
+			other.image_speed = 0 
+			other.image_blend = c_gray;
+		} 
+		else 
+		{
+			other.image_speed = other.image_speed_original ;
+			other.image_blend = c_white;
+		}
 	}
 }
 

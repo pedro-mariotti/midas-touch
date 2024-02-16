@@ -14,14 +14,14 @@ if(item_respectivo != " " and item_criado == false) {
 			sprite_index = spr_esteira_esq_baixo
 		break
 		case "muda_fruta":
-			show_debug_message("muda fruta tipo = " + string(muda_fruta_respectivo))
+			//show_debug_message("muda fruta tipo = " + string(muda_fruta_respectivo))
 			sprite_index = asset_get_index(string(muda_fruta_respectivo))
 		break
 		case "rachadura":
 			sprite_index = spr_rachadura
 		break
 	}
-	show_debug_message("item criado com item = " + item_respectivo)
+	//show_debug_message("item criado com item = " + item_respectivo)
 	item_criado = true
 	start_mask_index = mask_index
 }

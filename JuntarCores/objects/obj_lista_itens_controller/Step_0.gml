@@ -5,7 +5,7 @@ if(lista_mudou) {
 	//destroi lista antiga
 	instance_destroy(obj_item_da_lista)
 	instance_destroy(obj_container_lista)
-	show_debug_message(array_itens)
+	//show_debug_message(array_itens)
 	
 	var _tamanho_lista = array_length(array_itens)
 	var _temp_y = 0 //offset
@@ -23,7 +23,7 @@ if(lista_mudou) {
 			
 			//se for um item do tipo muda fruta, guarda qual e o tipo da fruta do muda frtua
 			if(array_itens[_i] == "muda_fruta") {
-				show_debug_message("index j = " + string(_j))
+				//show_debug_message("index j = " + string(_j))
 				_item.muda_fruta_respectivo = array_tipo_fruta_lista[_j]
 				_item.index_muda_fruta = _j
 				_j++
@@ -37,4 +37,5 @@ if(lista_mudou) {
 			
 	}	
 	lista_mudou = false
+	
 }

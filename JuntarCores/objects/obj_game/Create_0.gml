@@ -12,3 +12,8 @@
 	instance_create_layer(X_MAX-1900, Y_MAX-1050, "Controle", obj_bt_restart)
 	
 	
+	//Armengue pra evitar bug de itens entre fases
+	for(var _i = 0; _i <= array_length(array_itens); _i++)
+	{
+		array_delete(array_itens, meu_index, 1)
+	}

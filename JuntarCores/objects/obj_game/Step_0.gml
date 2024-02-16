@@ -10,6 +10,11 @@ if (fade_out)
 	        // Quando o fade estiver completo, vá para a próxima sala.
 			if(level_up)
 			{
+				if(fases_completas < 15 and info_leveis[level_atual-1] != STATUS_LEVEL.COMPLETO)
+				{
+					fases_completas += 1;
+				}
+				
 				if (info_leveis[level_atual-1] != STATUS_LEVEL.COMPLETO)
 				{
 					info_leveis[level_atual-1] = STATUS_LEVEL.COMPLETO;
@@ -21,13 +26,8 @@ if (fade_out)
 						}
 					}
 				}
+
 				level_atual++;
-				
-				if(fases_completas < 15)
-				{
-					//show_debug_message("entrou")
-					fases_completas += 1;
-				}
 				
 				//show_debug_message(fases_completas)
 				ini_save()

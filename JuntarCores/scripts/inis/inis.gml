@@ -28,14 +28,14 @@ function ini_save(){
 
 function ini_open_sound(){
 	ini_open("config_som.ini")
-	music_playing = ini_read_real("conf", "som", true);
-	sound_playing = ini_read_real("conf", "musica", true);
+	music_playing = ini_read_real("conf", "musica", true);
+	sound_playing = ini_read_real("conf", "som", true);
 	ini_close()
 }
 
 function ini_save_sound(){
 	ini_open("config_som.ini")
-	ini_write_real("conf", "som", music_playing);
-	ini_write_real("conf", "musica", sound_playing);
+	ini_write_real("conf", "musica", music_playing);
+	ini_write_real("conf", "som", sound_playing);
 	ini_close()	
 }

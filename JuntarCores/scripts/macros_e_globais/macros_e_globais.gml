@@ -23,7 +23,7 @@
 
 
 	globalvar fade_color;
-	fade_color = make_color_rgb(254,210,122);
+	fade_color = make_color_rgb(67,234,255);
 	
 	function tocar_som(_sound, _loop=false){
 		if(sound_playing){

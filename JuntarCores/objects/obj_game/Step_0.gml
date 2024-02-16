@@ -36,7 +36,7 @@ if (fade_out)
 					
 				//coolmathCallLevelStart(level_atual);//dados 
 					
-				if level_atual == array_length(info_leveis){
+				if level_atual == array_length(info_leveis)+1{
 					room_goto(rm_fase_1);	
 				}
 				else

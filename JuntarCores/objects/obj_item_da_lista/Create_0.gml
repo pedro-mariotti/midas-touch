@@ -6,7 +6,7 @@ item_criado = false
 
 index_muda_fruta = 0 // index do muda fruta respectivo na globalvar array_tipo_fruta_lista
 
-
+meu_index = 0;
 estou_movendo = false;
 
 //Posições iniciais 

@@ -15,5 +15,5 @@
 	//Armengue pra evitar bug de itens entre fases
 	for(var _i = 0; _i <= array_length(array_itens); _i++)
 	{
-		array_delete(array_itens, meu_index, 1)
+		array_delete(array_itens, _i, array_length(array_itens))
 	}

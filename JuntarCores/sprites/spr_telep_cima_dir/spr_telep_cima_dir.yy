@@ -47,7 +47,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e98783ab-61b8-4a63-9e4d-23cb0b17d881","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Teleporte",
     "path": "folders/Sprites/Mecânicas adicionais/Teleporte.yy",
@@ -108,7 +108,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 75,
-    "yorigin": 65,
+    "yorigin": 58,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

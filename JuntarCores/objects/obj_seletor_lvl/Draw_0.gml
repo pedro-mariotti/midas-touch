@@ -16,7 +16,7 @@ if status != STATUS_LEVEL.BLOQUEADO
 	draw_set_color(c_black)
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_set_font(font_60px);
+	draw_set_font(fnt_comicy60px);
 	draw_text(x, y, string(level));
 	draw_set_color(-1)
 	draw_set_halign(-1);

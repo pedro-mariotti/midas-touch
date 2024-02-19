@@ -17,3 +17,4 @@
 	{
 		array_delete(array_itens, _i, array_length(array_itens))
 	}
+	ultimo_item_lista = noone
